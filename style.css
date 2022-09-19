@@ -11,6 +11,37 @@ body {
     min-height: 100vh;
 }
 
+.header {
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+    background-color: grey;
+}
+
+.header>nav {
+    width: 30%;
+}
+
+.header>nav>ul {
+    list-style: none;
+}
+
+.header>nav>ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+
+.header>nav>ul>a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 97vh;
+}
+
 .home {
     position: fixed;
     left: 10px;
